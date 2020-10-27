@@ -1,0 +1,19 @@
+Element,necessity,rcarbon,bchron,oxcAAR,clam,c14bazaar
+name/identifier,mandatory,"in metadata, DateID",in list element names,name,NA,labnr
+bp,mandatory,CRA,ages,bp,NA,c14age
+std,mandatory,Error,agesSds,std,NA,c14std
+calcurve,mandatory,CalCurve: string,CalCurves: string,cal_curve: as values,NA,NA
+calibration result:,mandatory,grids,as list elements,raw_probabilities,calib,calprobdistr
+date,mandatory,calBP,ageGrid,dates,"[,1]",calage
+probability/density,mandatory,PrDens,densities,probabilities,"[,2]",density
+sigma ranges,derived,,,sigma_ranges,hdp,calrange
+Details/Comments,optional,Details,,,,
+Reservoir Effect,?,"ResOffsets, ResErrors",,,,
+Normalised,?,Normalised,,,,
+F14C,?,F14C,,,,
+probability cut-off,optional,CalEPS,,,,
+Depth,optional,,positions,,,
+modelled probabilities,optional?,,,posterior_probabilities,,
+modelled sigma ranges,optional?,,,posterior_sigma_ranges,,
+label age variable,no,,ageLab,,,
+label position variable,no,,positionLab,,,
