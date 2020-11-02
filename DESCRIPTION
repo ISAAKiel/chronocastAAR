@@ -1,13 +1,20 @@
 Package: chronocastAAR
-Title: What the Package Does (One Line, Title Case)
+Title: Convert chronometric information between different packages
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
+Authors@R: c(
+    person(given = "Martin",
+           family = "Hinz",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "martin.hinz@iaw.unibe.ch",
+           comment = c(ORCID = "0000-0002-9904-6548")),
+    person(given = "Eike",
+           family = "Petersen",
+           role = c("aut", "cre"),
+           email = "eike.petersen@fh-kiel.de")
+    )
+Description: The package is intended to facilitate the conversion between
+             different packages involved in (archaeological) chronometric analysis,
+             such as the common packages for 14C calibration.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
