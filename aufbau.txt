@@ -1,0 +1,16 @@
+[chronfo]
+name -> List
+	- bp -> number
+	- std -> number
+	- calCurve -> string
+	- dateWithProbability -> array[x][2] of numbers
+	- sourceInfo -> string
+	
+[api]
+
+conversion function from x
+conversion function to x
+
+from %>% to
+
+from( to: string ) to ease conversion default: 'none'
