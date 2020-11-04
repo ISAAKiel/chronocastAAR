@@ -10,11 +10,12 @@ Authors@R: c(
     person(given = "Eike",
            family = "Petersen",
            role = c("aut"),
-           email = "eike.petersen@fh-kiel.de")
+           email = "eike.petersen@stu.uni-kiel.de")
     )
 Description: The package is intended to facilitate the conversion between
              different packages involved in (archaeological) chronometric analysis,
              such as the common packages for 14C calibration.
+Imports: checkmate
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
